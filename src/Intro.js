@@ -10,11 +10,10 @@ const Intro = () => {
           <div className="blurb-text">
             <h3>About Me</h3>
             <p>
-              I am an incoming 4th year CS major at Cal Poly San Luis Obispo
+              I am a 4th year CS major at Cal Poly San Luis Obispo
               seeking opportunities to apply my skills and continue my growth as
-              a software developer. I am interested in a couple of different
-              aspects of the tech stack including bioinformatics, machine
-              learning and full stack development.
+              a software developer. I am primarily interested in machine
+              learning and full-stack/frontend development.
             </p>
           </div>
 
