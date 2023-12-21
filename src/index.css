@@ -136,16 +136,17 @@ code {
 
 
 .proj{
-  width: 45%;
+  width: 40%;
   height: 600px;
   padding: 25px;
   background-color: white;
 }
 
 
-@media (max-width: 1220px) {
+@media (max-width: 800px) {
   .proj{
     width: 100%;
+    height: auto;
   }
 }
 
@@ -158,3 +159,5 @@ code {
   width: 100%;
   height: auto;
 }
+
+
