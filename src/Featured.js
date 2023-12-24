@@ -1,3 +1,5 @@
+import Proj from "./Proj";
+
 const Featured = () => {
   return (
     <div className="featured">
@@ -7,54 +9,13 @@ const Featured = () => {
       <div className="project-wrapper">
         <div className="projects">
           <div className="proj-container">
-            <div
-              className="proj"
-              onClick={() => window.open("https://landscaipe.vercel.app/")}
-            >
-              <img src="landscaipe.png" alt="landscaipe-img" />
-              <h2>LandScaipe</h2>
-              <h5>React.js, Python, Flask, Tensorflow</h5>
-              <p>
-                LandScaipe is a machine learning app designed to use a Mask
-                R-CNN model to detect buildings given a satellite image and
-                suggest optimal plant positions around a target building using
-                geospatial data.
-              </p>
-            </div>
+            <Proj title="Landscaipe" tools="React.js, Python, Flask, Tensorflow" description="LandScaipe is a machine learning app designed to use a Mask R-CNN model to detect buildings given a satellite image and suggest optimal plant positions around a target building using geospatial data." imageUrl="landscaipe.png" link="https://landscaipe.vercel.app/"/>
+            <Proj title="Outiblog" tools="MongoDB, Express.js, React.js, Node.js" description="This is a clean and efficient blog site where you can post, comment, and like blogs!" imageUrl="outiblog.png" link="https://outiblog.vercel.app/"/>
+            <Proj title="GroupCart" tools="React.js, MongoDB, Express.js, Node.js" description="GroupCart allows you to easily shop with your friends/roommates with a shared grocery list!" imageUrl="groupcart.png" link="https://groupcart.vercel.app/"/>
+            <Proj title="Outify" tools="Javascript, Python, Flask, HTML/CSS" description="I created this app to enable Spotify users to have more creativity in finding music that they like. App is still in development mode so must be manually added as a developer to get full access to the app currently." imageUrl="outify.png" link="https://outify-go4ii.ondigitalocean.app/welcome"/>
 
-            <div
-              className="proj"
-              onClick={() => window.open("https://outiblog.vercel.app/")}
-            >
-              <img src="outiblog.png" alt="outiblog-img" />
-              <h2>Outiblog</h2>
-              <h5>MONGODB, EXPRESS.JS, REACT.JS, NODE.JS</h5>
-              <p>
-                This is a clean and efficient blog site where you can post,
-                comment, and like blogs!
-              </p>
-            </div>
 
-            <div className="proj">
-              <img src="groupcart.png" alt="groupcart-img" />
-              <h2>GroupCart</h2>
-              <h5>React.js, MongoDB, Express.js, Node.js</h5>
-              <p>
-                GroupCart allows you to easily shop with your friends/roommates
-                with a shared grocery list!
-              </p>
-            </div>
-
-            <div className="proj">
-              <img src="landscaipe.png" alt="landscaipe-img" />
-              <h2>Title</h2>
-              <h5>React.js, Python, Flask, Tensorflow</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci autem sequi explicabo ratione nobis quod ducimus
-                sapiente officia doloribus similique?
-              </p>
-            </div>
+          
           </div>
         </div>
       </div>
