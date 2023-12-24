@@ -1,6 +1,6 @@
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 
-const Proj = ({ link, title, tools, description, imageUrl }) => {
+const Proj = ({ link, title, tools, description, imageUrl, githubUrl }) => {
   const imageAlt = title + "-img";
 
   return (
@@ -15,7 +15,7 @@ const Proj = ({ link, title, tools, description, imageUrl }) => {
       <p>{description}</p>
 
       <div className="github-section">
-        <img src="github.png" alt="github" onClick={() => window.open(link)} />
+        <img src="github.png" alt="github" onClick={() => window.open(githubUrl)} />
       </div>
     </div>
   );
