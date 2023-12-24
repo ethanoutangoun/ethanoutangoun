@@ -73,7 +73,7 @@ code {
   text-decoration: none;
   color: rgb(109, 108, 108);
   display: inline-block;
-  margin-top: 20px;
+ 
   padding: 10px;
   border-radius: 6px;
   border: 1px solid rgb(109, 108, 108);
@@ -172,6 +172,30 @@ code {
   position: relative;
   z-index: 1;
 }
+
+.intro-buttons{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.i-button img{
+  height: 35px;
+  width: auto;
+}
+
+.i-button img:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+.i-button img:not(:hover){
+  transform: scale(1);
+  transition: transform 0.5s;
+}
+
 
 @media (max-width: 800px) {
   .proj {
