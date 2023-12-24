@@ -46,8 +46,11 @@ code {
 }
 
 .intro h1:hover{
-  color: rgb(133, 130, 130);
   cursor: pointer;
+}
+
+.blurb-container{
+  background-color: rgb(237, 238, 238);
 }
 
 .blurb {
@@ -60,6 +63,33 @@ code {
   padding-left: 100px;
   padding-right: 100px;
 }
+
+
+.resume{
+  text-decoration: none;
+  color: rgb(109, 108, 108);
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid rgb(109, 108, 108);
+}
+
+
+.resume-inner{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.resume:hover{
+  background-color: rgb(109, 108, 108);
+  color: white;
+  cursor: pointer;
+}
+
 
 @media (max-width: 800px) {
   .blurb {

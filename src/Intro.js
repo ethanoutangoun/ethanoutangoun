@@ -1,13 +1,12 @@
+import FileDownloadIcon from "@mui/icons-material/FileDownload";
 
 const Intro = () => {
- 
   function scrollToTop() {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth' // Smoothly scroll to the top
+      behavior: "smooth", // Smoothly scroll to the top
     });
   }
-
 
   return (
     <div className="intro">
@@ -25,6 +24,13 @@ const Intro = () => {
               software developer. I am primarily interested in machine learning
               and full-stack/frontend development.
             </p>
+
+            <a className="resume" href="resume.pdf" target="_blank">
+              <div className="resume-inner">
+                <p>Resume</p>
+                <FileDownloadIcon />
+              </div>
+            </a>
           </div>
 
           <img
