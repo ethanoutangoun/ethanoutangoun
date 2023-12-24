@@ -45,6 +45,11 @@ code {
   border-bottom: 1px solid rgb(237, 238, 238);
 }
 
+.intro h1:hover{
+  color: rgb(133, 130, 130);
+  cursor: pointer;
+}
+
 .blurb {
   margin-top: 80px;
   padding: 20px;
