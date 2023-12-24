@@ -79,9 +79,10 @@ code {
 
 .blurb-text {
   padding: 15px;
-  padding-left: 50px;
-  padding-right: 50px;
+
+ 
 }
+
 
 .blurb h3 {
   margin-bottom: 10px;
@@ -114,12 +115,13 @@ code {
 .project-wrapper{
   display: flex;
   justify-content: center;
+  background-color: rgb(241, 241, 241);
 }
 
 .projects{
-  background-color: rgb(241, 241, 241);
+  
   padding: 10px;
-  width: 100%;
+  width: 85%;
 
 }
 
