@@ -18,7 +18,7 @@ const Intro = () => {
         <div className="blurb">
           <div className="blurb-text">
             <h3>About Me</h3>
-            <p>
+            <p className="intro-desc">
               I am a 4th year CS major at Cal Poly San Luis Obispo seeking
               opportunities to apply my skills and continue my growth as a
               software developer. I am primarily interested in machine learning
