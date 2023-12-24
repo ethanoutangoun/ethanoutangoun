@@ -265,3 +265,12 @@ code {
 .github-section img:hover {
   transform: scale(1);
 }
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
